@@ -1,0 +1,121 @@
+/* Global layout */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2ac88; /* sage green */
+  padding: 0 10%; /* 10% background margin on each side */
+}
+
+/* Page container */
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header area */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header .info {
+  flex: 1;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Navigation */
+nav {
+  background-color: #eaeaea;
+  border-bottom: 1px solid #ccc;
+  padding: 0.8rem 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0077ff;
+}
+
+/* Main layout */
+main {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Left navigation */
+aside.left {
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+}
+
+aside.left h3 {
+  margin-top: 0;
+}
+
+/* Hero image */
+.hero {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Main content */
+.content {
+  padding: 1rem;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+/* Sticky sidebar */
+aside.right {
+  border-left: 1px solid #ddd;
+  padding-left: 1rem;
+}
+
+aside.right h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #eaeaea;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
