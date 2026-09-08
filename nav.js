@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   nav.classList.add("main-nav");
 
   nav.innerHTML = `
-    <ul class="nav-list">
+    <ul>
       <li><a href="index.html">About Me</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -13,3 +13,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.prepend(nav);
 });
+
