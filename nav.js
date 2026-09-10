@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   nav.innerHTML = `
     <div class="nav-container">
-      index.html
-        assets/logo.png
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Logo">
       </a>
 
       <ul class="nav-links">
-        <li>index.htmlAbout Me</a></li>
-        <li>portfolio.htmlPortfolio</a></li>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="product.html">Products</a></li>
       </ul>
     </div>
