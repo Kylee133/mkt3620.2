@@ -1,18 +1,20 @@
-// nav.js
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.createElement("nav");
-  nav.classList.add("main-nav");
 
   nav.innerHTML = `
-    <ul class="nav-list">
-      <li class="logo-item">
-        <img src="assets/logo.png" alt="Flower Logo" class="logo-img">
-        <a href="index.html">About Me</a>
-      </li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="Product.html">Product</a></li>
-    </ul>
+    <div class="nav-container">
+      index.html
+        assets/logo.png
+      </a>
+
+      <ul class="nav-links">
+        <li>index.htmlAbout Me</a></li>
+        <li>portfolio.htmlPortfolio</a></li>
+        <li><a href="product.html">Products</a></li>
+      </ul>
+    </div>
   `;
 
+  nav.classList.add("site-nav");
   document.body.prepend(nav);
 });
