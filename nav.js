@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="index.html">About Me</a>
       </li>
       <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Product.html">Product</a></li>
     </ul>
   `;
 
